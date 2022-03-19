@@ -1,0 +1,175 @@
+/* Start Global */
+:root {
+  --darkcolor: #19283f;
+  --scolor: #eff7fa;
+  --gcolor: #33d1cc;
+  --rcolor: #ff3150;
+  --ycolor: #ffc400;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.mtitle::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: var(--gcolor);
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main-btn {
+  color: var(--ycolor);
+  background-color: var(--rcolor);
+}
+
+/* Start NAV */
+.navbar {
+  background-color: var(--darkcolor);
+}
+.navbar .navbar-nav .nav-link, .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--gcolor);
+}
+.search {
+  color: var(--gcolor);
+  border-left: 1px solid var(--gcolor);
+}
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  transition: .3s;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"],
+.navbar .navbar-toggler:hover {
+  border-color: white;
+}
+.navbar .navbar-toggler svg{ 
+  color: white;
+  border-color: white;
+}
+
+/* Start Landing Page */
+.landing {
+  min-height: 100vh;
+  background-color: var(--darkcolor);
+}
+
+/* Start Services */
+.services .iconHolder {
+  height: 200px;
+}
+.services svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.services .number {
+  font-size: 12rem;
+  color: var(--scolor);
+}
+.services .icon {
+  color: var(--gcolor);
+}
+.services h4 {
+  color: var(--ycolor);
+}
+
+/* Start Portfolio */
+.portfolio {
+  background-color: var(--scolor);
+}
+.portfolio ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+.portfolio ul li:not(.active):hover {
+  color: var(--rcolor);
+}
+.portfolio ul .active {
+  background-color: var(--rcolor);
+  color: var(--ycolor);
+}
+.portfolio .work::before {
+  content: attr(data-work);
+  height: calc(100% - .50rem);
+  width: calc(100% - .50rem);
+  position: absolute;
+  background-color: rgba(51, 209, 204, 76%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  transform: translateX(calc(-100% - 0.25rem));
+  transition: .3s;
+}
+.portfolio .work:hover::before {
+  transform: translateX(0);
+}
+
+/* Start About */
+.about > p {
+  max-width: 500px;
+}
+
+/* Start Team */
+.team {
+  background-color: var(--scolor);
+}
+.team h2 {
+  color: var(--ycolor);
+}
+.team h4 {
+  background-color: var(--gcolor);
+}
+
+/* Start Project */
+.project {
+  background-color: var(--darkcolor);
+}
+
+/* Start Subscribe */
+.subscribe {
+  background-color: var(--ycolor);
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe .subBtn:hover {
+  background-color: var(--rcolor);
+}
+
+/* Start Footer */
+footer {
+  background-color: var(--darkcolor);
+}
+footer .copyright span:first-child b {
+  color: var(--gcolor);
+}
+footer .copyright span:last-child b {
+  color: var(--ycolor);
+}
+footer .facebook {
+  background-color: #1877f2;
+}
+footer .twitter {
+  background-color: #1da1f2;
+}
+footer .linkedin {
+  background-color: #0077b5;
+}
+footer .youtube {
+  background-color: #ff0000;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKASI | Bootstrap_1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/all.min.css">
+  <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="/CSS/main.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">AKASI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active p-lg-3 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <i class="fa-solid fa-magnifying-glass search ps-3 pe-3  d-none d-lg-block"></i>
+        <a class="btn rounded-pill btn-danger main-btn fw-bold" href="">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="landing d-flex justify-content-center align-items-center">
+    <div class="text text-center text-light">
+      <h1 class=" fw-bold">Taste the Creativity</h1>
+      <p class=" fs-6 text-white-50">We make awesome graphic and web design</p>
+      <a class=" btn rounded-pill btn-danger main-btn mt-4 fw-bold" href="#services">Get Started</a>
+    </div>
+  </section>
+
+  <section class="services text-center pt-5 pb-5 fw-bold" id="services">
+    <div class="mtitle mt-5 mb-5 position-relative">
+      <img class="mb-4" src="/Images/title.png" alt="">
+      <h2 class=" fw-bold mt-0">We are Good at</h2>
+      <p class=" text-black-50">SOME OF THESE STUFF UNDER</p>
+    </div>
+    <div class="container row m-auto p-0">
+      <div class="col-lg-4 col-md-6">
+        <div class="iconHolder position-relative">
+          <i class=" fa-solid fa-1 position-absolute bottom-0 number"></i>
+          <i class=" fa-solid fa-pencil fa-3x position-absolute bottom-0 icon"></i>
+        </div>
+        <h4 class="mt-3 mb-3 fw-bold">GRAPHIC DESIGN</h4>
+        <p class=" text-black-50 lh-lg">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget
+          consectetur sed, convallis at tellus.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="iconHolder position-relative">
+          <i class=" fa-solid fa-2 position-absolute bottom-0 number"></i>
+          <i class=" fa-solid fa-tv fa-3x position-absolute bottom-0 icon"></i>
+        </div>
+        <h4 class="mt-3 mb-3 fw-bold">Web DESIGN</h4>
+        <p class=" text-black-50 lh-lg">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget
+          consectetur sed, convallis at tellus.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="iconHolder position-relative">
+          <i class=" fa-solid fa-3 position-absolute bottom-0 number"></i>
+          <i class=" fa-solid fa-plug fa-3x position-absolute bottom-0 icon"></i>
+        </div>
+        <h4 class="mt-3 mb-3 fw-bold">App DESIGN</h4>
+        <p class=" text-black-50 lh-lg">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget
+          consectetur sed, convallis at tellus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio text-center pt-5 pb-5" id="portfolio">
+    <div class="mtitle mt-5 mb-5 position-relative">
+      <img class="mb-4" src="/Images/title.png" alt="">
+      <h2 class=" fw-bold mt-0">We Make This</h2>
+      <p class=" text-black-50 fw-bold">PREPARE TO BE AMAZED</p>
+    </div>
+    <div class="container">
+      <ul class=" list-unstyled d-flex mb-5 justify-content-center">
+        <li class="active rounded-pill">All</li>
+        <li>Desgin</li>
+        <li>Code</li>
+        <li>Photo</li>
+        <li>App</li>
+      </ul>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-01.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-02.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-03.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-04.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-05.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-06.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-07.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="work p-1 bg-white mb-3 position-relative overflow-hidden" data-work="AKASI">
+            <img src="/Images/work-08.jpg" alt="" class=" img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="btn main-btn btn-danger rounded-pill mt-5">I WANT MORE..</div>
+    </div>
+  </section>
+
+  <section class="about text-center pt-5" id="about">
+    <div class="mtitle mt-5 mb-5 position-relative">
+      <img class="mb-4" src="/Images/title.png" alt="">
+      <h2 class=" fw-bold mt-0">Some Stuff About Us</h2>
+      <p class=" text-black-50 fw-bold">THE GREAT TEAM</p>
+    </div>
+    <p class="text-black-50 m-auto mb-5">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget
+      tincidunt nibh pulvinar a. Pellentesque in
+      ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-md-start mb-4">
+          <h4>Retina Design</h4>
+          <p class=" text-black-50 fs-6">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            Mauris blandit aliquet elit, eget tincidunt nibh
+            pulvinar a.<br><br>rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh
+            pulvinar
+            a. Pellentesque in
+            ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+          <div class="btn main-btn btn-danger rounded-pill">Order One</div>
+        </div>
+        <div class="col-lg-8">
+          <img src="/Images/laptop.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team text-center pt-5 pb-5" id="team">
+    <div class="container pt-5">
+      <h2 class=" fw-bold">Meet The Team</h2>
+      <p class="text-black-50 mb-5">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt
+        nibh pulvinar a. Pellentesque in
+        ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <img src="/Images/team-1.png" alt="" class="img-fluid">
+          <h4 class=" p-3 text-light m-0">Luke Skywalker</h4>
+          <blockquote class=" text-black-50 p-3 bg-white">“I don't understand how we got by those troops. I thought we
+            were dead.“</blockquote>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="/Images/team-2.png" alt="" class="img-fluid">
+          <h4 class=" p-3 text-light m-0">Luke Skywalker</h4>
+          <blockquote class=" text-black-50 p-3 bg-white">“I don't understand how we got by those troops. I thought we
+            were
+            dead.“</blockquote>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="/Images/team-3.png" alt="" class="img-fluid">
+          <h4 class=" p-3 text-light m-0">Luke Skywalker</h4>
+          <blockquote class=" text-black-50 p-3 bg-white">“I don't understand how we got by those troops. I thought we
+            were
+            dead.“</blockquote>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="/Images/team-4.png" alt="" class="img-fluid">
+          <h4 class=" p-3 text-light m-0">Luke Skywalker</h4>
+          <blockquote class=" text-black-50 p-3 bg-white">“I don't understand how we got by those troops. I thought we
+            were
+            dead.“</blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container pt-5 pb-5 row text-center align-items-center row m-auto">
+    <div class="col-6 col-md-4 col-lg-2 mt-3 mb-3">
+      <img src="/Images/tech-1.png" alt="" class=img-fluid>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 mt-3 mb-3">
+      <img src="/Images/tech-2.png" alt="" class=img-fluid>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 mt-3 mb-3">
+      <img src="/Images/tech-3.png" alt="" class=img-fluid>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 mt-3 mb-3">
+      <img src="/Images/tech-4.png" alt="" class=img-fluid>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 mt-3 mb-3">
+      <img src="/Images/tech-1.png" alt="" class=img-fluid>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2 mt-3 mb-3">
+      <img src="/Images/tech-2.png" alt="" class=img-fluid>
+    </div>
+  </section>
+
+  <section class="project text-center pt-5 pb-5 text-light ">
+    <h2>Start Your Project Now</h2>
+    <p class="text-white-50">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+    <div class="btn main-btn btn-danger rounded-pill mt-5 mb-5 fs-5">Start Project</div>
+  </section>
+
+  <section class="container blog text-center pt-5 pb-5">
+    <div class="mtitle mt-5 mb-5 position-relative">
+      <img class="mb-4" src="/Images/title.png" alt="">
+      <h2 class=" fw-bold mt-0">Read Our Blog</h2>
+      <p class=" text-black-50 fw-bold">NEW STORIES</p>
+    </div>
+    <div class="row text-start">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="/Images/blog-1.jpg" alt="Blog Post" class="card-img-top">
+          <div class="card-body">
+            <span class="text-black-50">Jan 17, 2022</span>
+            <h5 class=" card-title">Some Awesome Blog Title Here</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="/Images/blog-2.jpg" alt="Blog Post" class="card-img-top">
+          <div class="card-body">
+            <span class="text-black-50">Jan 17, 2022</span>
+            <h5 class=" card-title">Some Awesome Blog Title Here</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <img src="/Images/blog-3.jpg" alt="Blog Post" class="card-img-top">
+          <div class="card-body">
+            <span class="text-black-50">Jan 17, 2022</span>
+            <h5 class=" card-title">Some Awesome Blog Title Here</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn main-btn btn-danger rounded-pill mt-5 mb-5 fs-5">Start Project</div>
+  </section>
+
+  <section class="subscribe pt-5 pb-5 text-center" id="contact">
+    <div class="container row m-auto align-items-center">
+      <h5 class="col-md-6 col-lg-3 mb-3 text-start">Subscribe to our Newsletter:</h5>
+      <div class="col-md-6 col-lg-7 text-light mb-3">
+        <input type="text" class=" w-100 bg-transparent border-0 border-bottom border-1 border-light p-2"
+          placeholder="Enter Your Email..">
+      </div>
+      <div class="col-2 mt-4 mt-md-4 m-md-auto m-lg-0">
+        <div class="subBtn btn rounded-pill btn-dark text-warning">Subscribe</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="pt-5 pb-5 text-white-50 text-center text-md-start">
+    <div class="container row m-auto">
+      <div class="col-md-6 col-lg-4 mb-5">
+        <img src="/Images/logo.png" alt="">
+        <p class="mt-4 mb-4">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur
+          sed, convalis at telus.</p>
+        <div class="copyright">
+          <span class="d-block">Created by <b>AKASI</b></span>
+          <span>© 2022 - <b>Bondi Inc</b></span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <h5 class="text-light">Links</h5>
+        <ul class="list-unstyled lh-lg">
+          <li>Home</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Testimonials</li>
+          <li>Support</li>
+          <li>Terms and Condition</li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <h5 class="text-light">About Us</h5>
+        <ul class="list-unstyled lh-lg">
+          <li>Sign In</li>
+          <li>Register</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <h5 class="text-light">Contact Us</h5>
+        <p class="lh-lg">Get in touch with us via mail phone.We are waiting for your call or message</p>
+        <a href="mailto: ahmedkasi777@gmail.com" class="btn main-btn rounded-pill mt-4 mb-5 w-100">ahmedkasi777@gmail.com</a>
+        <ul class="d-flex gap-3 list-unstyled justify-content-center justify-content-md-start">
+          <li><i class="fa-brands fa-facebook p-2 fa-lg facebook text-light rounded-circle"></i></li>
+          <li><i class="fa-brands fa-twitter p-2 fa-lg twitter text-light rounded-circle"></i></li>
+          <li><i class="fa-brands fa-linkedin p-2 fa-lg linkedin text-light rounded-circle"></i></li>
+          <li><i class="fa-brands fa-youtube p-2 fa-lg youtube text-light rounded-circle"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/JS/all.min.js"></script>
+  <script src="/JS/bootstrap.min.js"></script>
+  <script src="/JS/main.js"></script>
+</body>
+
+</html>
